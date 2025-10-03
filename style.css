@@ -1,7 +1,7 @@
 /* General Styles */
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Georgia, 'Times New Roman', Times, serif;
-  background-color: #081f36;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #0dd116c4;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -14,10 +14,10 @@ body {
 /* Chatbot Container */
 .chatbot-container {
   width: 400px;
-  background-color: #011225;
+  background-color: #ffffff;
   border-radius: 50px;
   overflow: hidden;
-  box-shadow: 0px 4px 10px rgb(3, 68, 234);
+  box-shadow: 0.1px 0.1px 0.1px 5px rgb(242, 244, 250);
 }
 
 /* Header */
@@ -26,14 +26,14 @@ body {
   align-items: center;
   padding: 15px;
   padding-left: 90px;
-  background-color: #0da19e;
+  background-color: #039728;
 }
 
 h2{
-  color: #01265d;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:  white;
+  /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   font-style: normal;
-  font-weight: bolder;
+  /* font-weight: bolder; */
 }
 
 .logo {
@@ -50,8 +50,7 @@ h2{
   display: flex;
   flex-direction: column;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: larger;
-  font-weight: bold;
+  font-size: large;
 }
 
 
@@ -64,12 +63,12 @@ h2{
 }
 
 .user-message {
-  background-color: #020b89;
+  background-color: #039728;
   align-self: flex-end;
 }
 
 .bot-message {
-  background-color: #020b89;
+  background-color: #039728;
   align-self: flex-start;
 }
 
@@ -85,7 +84,7 @@ h2{
 .chat-input {
   display: flex;
   padding: 10px;
-  background-color: #0da19e;
+  background-color: #039728;
 }
 
 .chat-input input {
@@ -99,9 +98,10 @@ h2{
   margin-left: 10px;
   padding: 8px;
   border-radius: 15px;
-  background-color: #0205cd;
+  background-color: #039728;
   color: rgb(229, 217, 217);
   cursor: pointer;
+  border-color:  white;
 }
 
 /* Chat Options */
@@ -109,7 +109,7 @@ h2{
   display: flex;
   justify-content: space-around;
   padding: 10px;
-  background-color: #0da19e;
+  background-color: #039728;
 }
 
 /* Animations */
