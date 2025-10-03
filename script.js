@@ -25,7 +25,7 @@ function displayBotMessage(message) {
     messageContainer.classList.add('message', 'bot-message');
 
     const botAvatar = document.createElement('img');
-    botAvatar.src = 'images.html/IMG-20250310-WA0026.jpg'; // Ensure the path is correct
+    botAvatar.src = 'images.jpeg'; // Ensure the path is correct
     botAvatar.classList.add('bot-avatar');
 
     messageContainer.appendChild(botAvatar);
